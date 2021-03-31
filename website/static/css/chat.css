@@ -234,6 +234,9 @@
     border-radius: 50%;
     transition: 0.3s 0.4s ease-out;
 }
+.card-title{
+    color: whitesmoke;
+}
 
 .card-img-top:hover{
     transform: translateY(-8px);
