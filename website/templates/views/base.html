@@ -12,6 +12,7 @@
 </head>
 <body id="body">
     <div id="blur">
+<<<<<<< Updated upstream
         {#<header class="header">
             <div class="header-container">
                 <img src="../../static/images/ftyswdhgWhatsApp Image 2021-03-11 at 2.59.39 PM.png" alt="" class="header-img">
@@ -24,12 +25,29 @@
                 </div> -->
             </div>
         </header>#}
+=======
+{#        <header class="header">#}
+{#            <div class="header-container">#}
+{#                <img src="../../static/images/ftyswdhgWhatsApp Image 2021-03-11 at 2.59.39 PM.png" alt="" class="header-img">#}
+{##}
+{#                <a href="#" class="header-logo">XYZ</a>#}
+{##}
+{#                <!-- <div class="header-search">#}
+{#                    <input type="search" placeholder="Search" class="header-input">#}
+{#                    <i class="fas fa-search header-icon"></i>#}
+{#                </div> -->#}
+{#            </div>#}
+{#        </header>#}
+>>>>>>> Stashed changes
     
     
         <div class="chat-page">
             <div class="row d-flex align-items-stretch">
                 <div class="col-1 workspace-list">
+<<<<<<< Updated upstream
                 <div class="workspace-icon"><svg><use xlink:href="#icon-friends" /></svg></div>
+=======
+>>>>>>> Stashed changes
                     <div class="createWorkspace">
 
                         <div class="createWorkspaceButton">
@@ -58,9 +76,20 @@
                         {%endfor%}
                     </div>
                 </div>
+<<<<<<< Updated upstream
                 <div class="col-3 col-md-2 channel-list">
                 <div class="channel-div">
                     <div class="channel-heading" >
+=======
+                <div class="col-3 channel-list">
+                    <div class="createChannel">
+                        <div class="createChannelButton">
+                            <a href="#"><button id="createChannel"><i class="fas fa-plus"></i> Create Channel</button></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="channel-heading">
+>>>>>>> Stashed changes
                         {% if count > 0 %}
                             <p id="channel-heading">{{workspace[0].name}}</p>
                         {% else %}
@@ -84,7 +113,11 @@
                         {%endfor%}
                     </div>
                 </div>
+<<<<<<< Updated upstream
                 <div class="col-7 chat-section">
+=======
+                <div class="col-6 chat-section">
+>>>>>>> Stashed changes
                     <div class="main-block">
                         <div class="channel-heading">
                             {% if channelCount > 0 %}
@@ -133,7 +166,11 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< Updated upstream
                 <div class="col-2  profile-section">
+=======
+                <div class="col-2 profile-section">
+>>>>>>> Stashed changes
                     <div class="card">
                         <img class="card-img-top" src="{{image}}" alt="Card image cap">
                         <div class="card-body" id="card_body">

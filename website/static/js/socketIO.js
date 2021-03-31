@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', ()=>{
     scrollDownChatWindow()
+<<<<<<< Updated upstream
     var socket = io.connect('http://127.0.0.1:3000/' );
+=======
+    var socket = io.connect('http://127.0.0.1:5000/' );
+>>>>>>> Stashed changes
 
     socket.on('connect', function() {
         socket.emit('message',{data: 'I\'m connected!'});

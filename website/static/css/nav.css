@@ -1,5 +1,5 @@
 :root{
-    --first-color: #121212;
+    --first-color: #040506;
     --white-color: #acacac;
     --dark-color: #EF7070;
     --text-color: #3EBDC6;
@@ -7,14 +7,14 @@
     --dark--white: #292929;
     --brShadow: -1px 1px 4px;
 
-    --header-height: 3.5rem;
+    --header-height: 2.5rem;
     --nav-width: 219px;
 
     --normal-font-size: 0.938rem;
     --small-font-size: 0.75rem;
     --smaller-font-size: 0.75rem;
 
-    --font-medium: 500;
+    --font-medium: 200;
     --font-semi-bold: 600;
 
     --z-fixed: 100;
@@ -33,9 +33,10 @@
 }
 
 body{
-    margin: var(--header-height) 0 0 0;
+    /*margin: var(--header-height) 0 0 0;
     /* padding: 1rem 1rem 0; */
     font-size: var(--normal-font-size);
+<<<<<<< Updated upstream
     background-color: black;
     background-color: var(--first-color);
 
@@ -45,6 +46,17 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
     margin: 0px;
+=======
+    background-color: var(--first-color);
+    color: var(--first-color);
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 0rem;
+    width: 100vw;
+    height: 100vh;
+
+>>>>>>> Stashed changes
 }
 
 h3{
@@ -61,21 +73,25 @@ img{
     max-width: 100%;
 }
 
-.header{
+/*.header{
     position: fixed;
     top: 0;
     left: 0;
     width: 97.5%;
     background-color: var(--dark--white);
-    /* box-shadow: var(--brShadow) var(--first-color); */
-    padding: 0 1rem;
+    !* box-shadow: var(--brShadow) var(--first-color); *!
+    padding: 0 0rem;
     z-index: var(--z-fixed);
     margin-left: 1rem;
     margin-top: 0.5rem;
     background-color: var(--first-color);
+<<<<<<< Updated upstream
     box-shadow: inset 5px 5px 10px #070707,
             inset -5px -5px 10px #1d1d1d;
     /* border-radius: 1rem; */
+=======
+    !* border-radius: 1rem; *!
+>>>>>>> Stashed changes
 }
 
 .header-container{
@@ -130,7 +146,7 @@ img{
 
 .header-toggle-icon{
     transition: 0.5s;
-}
+}*/
 
 
 
