@@ -25,7 +25,7 @@ def signup_post():
         password = request.form.get('password')
         image = request.files['image']
         if image:
-            upload_result = uploader.upload(image)
+            upload_result = upload(image)
             # image = Cloud.CloudinaryImage(request.form.get('image'))
             thumbnail_url1, options = cloudinary_url(
                         upload_result['public_id'],

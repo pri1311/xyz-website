@@ -38,10 +38,13 @@ body{
     font-size: var(--normal-font-size);
     background-color: black;
     background-color: var(--first-color);
+
     color: var(--white-color);
     align-items: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    margin: 0px;
 }
 
 h3{
