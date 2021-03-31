@@ -1,9 +1,8 @@
 :root{
-<<<<<<< Updated upstream
+
     --first-color: #16191C;
-=======
-    --first-color: #040506;
->>>>>>> Stashed changes
+
+
     --white-color: #acacac;
     --dark-color: #EF7070;
     --text-color: #3EBDC6;
@@ -27,14 +26,14 @@
 .chat-page{
     height: 100vh;
     margin: 0rem;
-<<<<<<< Updated upstream
+
     margin-top: 0rem;
     justify-content: space-between;
-=======
+
     border: 0px;
     justify-content: initial;
 
->>>>>>> Stashed changes
+
     /* border-radius: 1rem; */
     /* margin-top: 3.5rem; */
 }
@@ -46,11 +45,9 @@
     padding: 0;
     align-items: stretch;
     overflow: hidden;
-<<<<<<< Updated upstream
 
-=======
     height: 100vh;
->>>>>>> Stashed changes
+
     /* border-radius: 1.5rem; */
 }
 
@@ -60,38 +57,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< Updated upstream
+
     height: 100vh;
-=======
 
 
->>>>>>> Stashed changes
+
+
     scrollbar-width: none;
 
 
     /* border-radius: 1rem; */
 }
 
-<<<<<<< Updated upstream
+
 .channel-list, .profile-section {
     background-color: #1E2126;
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-=======
-.channel-list, .profile-section{
-    background-color: #1E2126;
->>>>>>> Stashed changes
 }
 
-/* .channel-list{
-    background-color: var(--dark--white);
-} */
-
-/* .channel-list, .profile-section{
-    background-color: var(--dark--white);
-} */
 .workspace-list{
-    background-color:#202225 ;
+    background-color:#12171D ;
 }
 
 .workspace{
@@ -221,6 +205,9 @@
 }
 .channel-div{
     border-bottom:0.1rem solid gray;
+    width: 100%;
+
+
 }
 
 .channel-heading p{
@@ -228,6 +215,8 @@
     font-size: x-large ;
     font-weight: bold;
     text-transform: uppercase;
+    color: grey;
+    text-align: center;
 }
 
 .card{
@@ -237,6 +226,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: gray;
 }
 
 .card-img-top{
@@ -263,12 +253,29 @@
 .card a:hover{
     background-color: var(--white-color);
 }
+.card-code{
+    padding-top: 3rem;
+    font-size: xx-large;
+    color: snow;
+}
+.card-code-text{
+    text-align: center;
+}
 
 
 
 /* CHAT SECTION */
-
-.chat-workspace-name{
+.chat-heading{
+    border-bottom:0.1rem solid gray;
+    width: 100%;
+    padding-top: 0.1rem;
+    font-size: large ;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: grey;
+    text-align: end;
+}
+/*.chat-workspace-name{
     padding: 0.5rem;
     text-transform: uppercase;
     font-size: 1rem;
@@ -277,7 +284,7 @@
     border-bottom: 1px solid var(--dark--white);
     margin: 0 4rem 1rem 4rem;
     color: #d0cccb;
-}
+}*/
 .chatbubble{
     word-wrap: break-word;
     display: flex;
@@ -287,6 +294,7 @@
     margin: 0.5rem;
     padding: 0.5rem;
     background: #1E2126;
+    color: gray;
 
 
 }
@@ -367,18 +375,13 @@
     justify-content: end;
     background-color: var(--dark--white);
     border-radius: 1rem;
-<<<<<<< Updated upstream
-    margin-bottom: 1rem;
-    background: #292929;
-
-=======
     margin-bottom: 0rem;
 }
 
 .send-message-container form{
     width: 75%;
     margin-right: 2rem;
->>>>>>> Stashed changes
+
 }
 
 
