@@ -443,7 +443,6 @@ img{
 /* ===== ABOUT =====*/
 
 .about{
-    background: var(--dark-color);
     padding: 2rem;
     background-image: url('https://andytips.org/wp-content/uploads/2016/12/black-background-3.jpg');
     background-repeat: no-repeat; /* Do not repeat the image */
